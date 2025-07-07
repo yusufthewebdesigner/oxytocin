@@ -1,0 +1,53 @@
+:root {
+  --dayWhite: #f6f6f6;
+  --navBG: #fcf5bf;
+  --text: black;
+  --mainNav: cyan;
+  --userCart: #ddd;
+  --paraHead: green;
+}
+.darkTheme {
+  --dayWhite: #262628;
+  --navBG: #444;
+  --text: white;
+  --mainNav: blueviolet;
+  --userCart: slategrey;
+  --paraHead: #fcf5bf;
+}
+#navBar {
+  padding: 8px;
+  background-color: var(--navBG);
+}
+#footer {
+  background-color: var(--navBG);
+}
+body {
+  background: var(--dayWhite);
+  color: var(--text);
+}
+.activeItem {
+  background: var(--mainNav);
+}
+#user {
+  background: var(--userCart);
+}
+.mainBox .paraTitle {
+  color: var(--paraHead);
+}
+.developer #about {
+  border: 2px solid var(--dayWhite);
+}
+.developer #about .CV a {
+  background-color: var(--mainNav);
+}
+.developer #skill #item,
+.developer #service #item,
+.developer #contact #item,
+.contact #item {
+  background: var(--mainNav);
+}
+#skillImage,
+#serviceImage,
+#contactImage {
+  background: var(--mainNav);
+}

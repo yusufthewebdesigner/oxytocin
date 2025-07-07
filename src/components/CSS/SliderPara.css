@@ -1,0 +1,68 @@
+/* Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+/* Font Awesome Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+.mainBox {
+  margin: 10px auto;
+  padding: 10px;
+}
+.mainBox .paraTitle {
+  text-align: center;
+  text-decoration: double;
+  text-decoration-line: underline;
+  margin: 5px 0;
+}
+.mainBox p {
+  width: 100%;
+  font-size: 16px;
+  text-align: justify;
+}
+.mainBox label {
+  font-size: 16px;
+}
+.mainBox .buttons .speed {
+  position: relative;
+  margin-top: 4px;
+}
+.mainBox .buttons .speed p {
+  text-align: right;
+  position: absolute;
+  top: -16px;
+  left: -2px;
+}
+.mainBox .buttons .speed .range {
+  display: flex;
+}
+.mainBox .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.mainBox .buttons button {
+  border: 0;
+  background: #ddd;
+  box-shadow: 0px 3px 7px #444;
+  color: black;
+  padding: 0px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.mainBox .buttons button:active {
+  background: blue;
+}
+.mainBox .buttons button i {
+  font-size: 18px;
+  margin-top: 3px;
+}

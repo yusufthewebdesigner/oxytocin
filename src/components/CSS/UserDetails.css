@@ -1,0 +1,52 @@
+.parent {
+  padding: 10px;
+}
+.parent img {
+  width: 200px;
+  transition-duration: 0.5s;
+}
+.parent .image {
+  border: 4px solid green;
+  width: 200px;
+  aspect-ratio: 1;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent img:hover {
+  transform: scale(1.1);
+}
+.parent .result {
+  overflow-x: scroll;
+}
+.parent .result::-webkit-scrollbar {
+  display: none;
+}
+
+.result table,
+.result th,
+.result td {
+  border: 1px solid red;
+  padding: 5px;
+}
+
+.contact #item {
+  padding: 10px 5px;
+  border: 2px solid green;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact i {
+  font-size: 20px;
+}
+.contact .fa-telegram {
+  font-size: 23px;
+}
+.contact .fa-square-whatsapp {
+  font-size: 25px;
+}

@@ -1,0 +1,141 @@
+.developer #about {
+  padding: 0 10px;
+}
+.developer #about .intro img {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid cyan;
+  box-shadow: 0 0 10px cyan, 0 0 10px cyan inset;
+}
+.developer #about .intro h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+.developer #about p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.developer #about p a {
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+}
+.developer #about p a:hover {
+  text-decoration: underline;
+}
+.developer #about .CV a {
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.developer #skill,
+.developer #service,
+.developer #contact {
+  padding: 10px;
+}
+.developer #skill .heading,
+.developer #service .heading,
+.developer #contact .heading {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.developer #skill .subHeading,
+.developer #service .subHeading,
+.developer #contact .subHeading {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.developer #skill .paretItems,
+.developer #service .paretItems,
+.developer #contact .paretItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.developer #skill .paretItems #item,
+.developer #service .paretItems #item,
+.developer #contact .paretItems #item {
+  width: 48%;
+  padding: 10px 5px;
+  border: 2px solid green;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.developer #skill .paretItems #item i,
+.developer #service .paretItems #item i,
+.developer #contact .paretItems #item i {
+  font-size: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+/* .developer #skill .paretItems #item:nth-child(2n + 1) i {
+  font-size: 25px;
+} */
+.developer #skill .paretItems #item .fa-html5,
+.developer #skill .paretItems #item .fa-js,
+.developer #skill .paretItems #item .fa-react,
+.developer #skill .paretItems #item .fa-git-alt {
+  font-size: 25px;
+}
+.developer #skill .paretItems #item .reactIcon {
+  height: 35px;
+  font-size: 25px;
+}
+
+.developer #contact .paretItems #item .fa-telegram,
+.developer #contact .paretItems #item .fa-square-whatsapp {
+  font-size: 25px;
+}
+.developer #skill #item h1,
+.developer #service #item h1,
+.developer #contact #item h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.developer nav div a {
+  height: 40px;
+  padding: 10px;
+  color: white;
+}
+.developer nav div a:focus {
+  color: blue;
+  background: red;
+}
+.developer nav div a i {
+  margin-right: 3px;
+}
+.active a {
+  background: #4fe98c;
+  color: black;
+}
+
+@media screen and (min-width: 640px) {
+  .developer #skill .paretItems #item,
+  .developer #service .paretItems #item,
+  .developer #contact .paretItems #item {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .developer #skill .paretItems #item,
+  .developer #service .paretItems #item,
+  .developer #contact .paretItems #item {
+    width: 48%;
+  }
+}

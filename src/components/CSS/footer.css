@@ -1,0 +1,19 @@
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#footer h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+#footer h1 span {
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  #footer h1 span {
+    display: inline;
+  }
+}
