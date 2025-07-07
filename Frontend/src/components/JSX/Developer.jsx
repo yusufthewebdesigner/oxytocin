@@ -60,7 +60,7 @@ const Developer = () => {
         </div>
       </nav>
       {/* //! About Area */}
-      <div id="about" className="min-h-screen">
+      <div id="about" className="min-h-screen ">
         <div className="intro">
           <img src={yusufImage} alt="" id="devImage" />
           <h1>Yusuf</h1>
