@@ -3,7 +3,7 @@
   border: 1px solid slategrey;
   border-radius: 4px;
 }
-#user .image {
+#user .imageContainer {
   border: 4px solid green;
   width: 135px;
   aspect-ratio: 1;

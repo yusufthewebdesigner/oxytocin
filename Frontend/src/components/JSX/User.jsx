@@ -6,7 +6,7 @@ const User = ({ user }) => {
   let { id, image, name } = user;
   return (
     <div id="user">
-      <div className="image">
+      <div className="imageContainer">
         <img src={image} />
       </div>
       <h1 className="text-center text-2xl font-bold">{name}</h1>

@@ -8,7 +8,7 @@ const UserDetails = () => {
   // console.log(users);
 
   // prettier-ignore
-  let { id, registration, session, name, image, dob, bloodGroup, phone, email, fbUserName, tgUserName, district, result,  } = users;
+  let { id, registration, session, name, image, dob, bloodGroup, phone, email, fbUserName, tgUserName, district, result, } = users;
 
   let dateOfBirth = dob
     ? new Date(dob).toLocaleDateString("en-GB") // Outputs DD/MM/YYYY
@@ -18,7 +18,7 @@ const UserDetails = () => {
     <div className="parent flex flex-col sm:flex-row justify-center gap-5">
       <div className="basic">
         <div className="intro">
-          <div className="image">
+          <div className="imageContainer">
             <img src={image} />
           </div>
           <p className="text-center font-bold">ID: {id}</p>
