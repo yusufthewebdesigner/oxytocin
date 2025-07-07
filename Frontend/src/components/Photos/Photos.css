@@ -8,10 +8,10 @@
 .imgWrapper:hover .imgTitle {
   display: block;
 }
-.imgLink {
+.image {
   border-radius: 5px;
 }
-.imgLink:hover {
+.image:hover {
   transform: scale(1.2);
 }
 .imgTitle {
